@@ -194,6 +194,68 @@ Handles 10,000+ tracks without breaking a sweat.
 
 <div align="center">
 
+## 🚀 Quick Setup — Connect YouTube Music
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%" align="left">
+
+### Step 1 — Install
+Download `IkigaiPlayer-Setup.exe` and run it.
+Follow the wizard — takes less than 30 seconds.
+
+<br/>
+
+### Step 2 — Open Settings
+Launch Ikigai Player from your Start Menu.
+Click **Settings** in the sidebar.
+
+<br/>
+
+### Step 3 — Add Media Server
+Scroll down until you see **Media Servers**.
+Click **Add Servers**.
+
+</td>
+<td width="50%" align="left">
+
+### Step 4 — Choose YouTube Music
+A dropdown appears with **Jellyfin** selected by default.
+Click on it and select **YouTube Music**.
+
+<br/>
+
+### Step 5 — Name Your Server
+Enter any server name you want.
+Click **Next**.
+
+<br/>
+
+### Step 6 — Sign In
+Your browser opens automatically.
+Sign in with your Google account.
+That's it — **you're ready to go!** 🎉
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
 ## ⬇️ Get Started
 
 <br/>
