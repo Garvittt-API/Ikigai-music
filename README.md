@@ -256,6 +256,32 @@ That's it — **you're ready to go!** 🎉
 
 <div align="center">
 
+## 🔧 Troubleshooting
+
+</div>
+
+<br/>
+
+<div align="center">
+
+**Music is playing but search shows nothing?**
+
+1. Go to **Settings**
+2. Scroll down to **Media Servers**
+3. Find your server and click the small **Login** button next to it
+4. You should see **Connected** appear
+5. If it doesn't show connected after clicking Login, [open an issue on GitHub](https://github.com/Garvittt-API/Ikigai-player/issues) or email us at **garvitchoudhary2315@gmail.com**
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
 ## ⬇️ Get Started
 
 <br/>
