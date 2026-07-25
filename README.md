@@ -232,7 +232,7 @@ Click on it and select **YouTube Music**.
 <br/>
 
 ### Step 5 — Name Your Server
-Enter any server name you want.
+Enter server name. you can name it anything you want (custom)
 Click **Next**.
 
 <br/>
