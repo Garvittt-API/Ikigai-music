@@ -1,21 +1,31 @@
 <div align="center">
 
-<img src="crates/kopuz/assets/logo-512.png" alt="Ikigai Logo" width="120" />
+<img src="logo.png" alt="Ikigai Logo" width="150" />
 
-# Ikigai
+<h1><code>Ikigai</code></h1>
 
-**Your music, your way.**
+<p><i>生き甲斐</i> — a reason for being.</p>
 
-A modern, blazing-fast music player built with Rust and Dioxus.
-
-[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge)]()
-[![Downloads](https://img.shields.io/github/downloads/Garvittt-API/Ikigai-player/total?style=for-the-badge&color=green)](https://github.com/Garvittt-API/Ikigai-player/releases)
+<p>Your music, beautifully organized and lightning fast.</p>
 
 <br/>
 
-[Installation](#installation) • [Features](#features) • [Screenshots](#screenshots) • [Download](#download)
+<a href="#download">
+<img src="https://img.shields.io/badge/DOWNLOAD-WINDOWS-000?style=for-the-badge&logo=windows&logoColor=white" />
+</a>
+<a href="https://github.com/Garvittt-API/Ikigai-player">
+<img src="https://img.shields.io/badge/SOURCE-CODE-000?style=for-the-badge&logo=rust&logoColor=white" />
+</a>
+<a href="https://github.com/Garvittt-API/Ikigai-player/releases">
+<img src="https://img.shields.io/badge/VERSION-0.11.0-blue?style=for-the-badge" />
+</a>
+
+<br/>
+<br/>
+
+<img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=flat-square" />
+<img src="https://img.shields.io/badge/Built_with-Rust-black?style=flat-square&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/UI-Dioxus-4f46e5?style=flat-square" />
 
 </div>
 
@@ -27,11 +37,11 @@ A modern, blazing-fast music player built with Rust and Dioxus.
 
 ### What is Ikigai?
 
-*Ikigai* (生き甲斐) — a Japanese concept meaning "a reason for being."
+> *"In Japanese culture, ikigai is a reason for being — the thing that gets you out of bed each morning."*
 
-Your music player should be exactly that: **a reason to enjoy your music.**
+Your music player should be exactly that. **A reason to enjoy your music.**
 
-No bloat. No ads. Just your library, beautifully organized and lightning fast.
+No bloat. No ads. No tracking. Just your library, beautifully organized.
 
 </div>
 
@@ -43,11 +53,27 @@ No bloat. No ads. Just your library, beautifully organized and lightning fast.
 
 <div align="center">
 
-| Platform | Link |
-|----------|------|
-| **Windows** | [Download Installer (27 MB)](https://github.com/Garvittt-API/Ikigai-player/releases/latest) |
-| **Linux** | `cargo install ikigai-player` • [AUR](https://aur.archlinux.org/packages/ikigai-player-bin) • [Flatpak](#flatpak) |
-| **macOS** | `cargo install ikigai-player` |
+### Windows
+
+**[Download IkigaiPlayer-Setup.exe](https://github.com/Garvittt-API/Ikigai-music/releases/latest/download/IkigaiPlayer-Setup.exe)** (27 MB)
+
+Run the installer → Start Menu → Done.
+
+<br/>
+
+### Linux / macOS
+
+```bash
+cargo install ikigai-player
+```
+
+### Build from Source
+
+```bash
+git clone https://github.com/Garvittt-API/Ikigai-player.git
+cd Ikigai-player
+just serve
+```
 
 </div>
 
@@ -57,98 +83,24 @@ No bloat. No ads. Just your library, beautifully organized and lightning fast.
 
 ## Features
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Core
-- **Multiple Backends** — Local files, Jellyfin, Subsonic/Navidrome, YouTube Music, SoundCloud
-- **Smart Library** — Auto-scan, organize by artist/album/genre
-- **Playlists** — Create, manage, and sync with your server
-- **Favorites** — Star tracks locally or sync with Jellyfin/Subsonic
-- **Lyrics** — Real-time synced & plain lyrics with auto-scroll
-- **Scrobbling** — ListenBrainz support
-
-</td>
-<td width="50%" valign="top">
-
-### Experience
-- **Custom Themes** — Full color variable control, build your own
-- **Mini Player** — Compact overlay for quick access
-- **System Tray** — Minimize to tray, keeps playing in background
-- **Discord RPC** — Show what you're listening to
-- **Equalizer** — 10-band with presets
-- **Crossfade** — Smooth track transitions
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Power
-- **yt-dlp Integration** — Download from YouTube and 1000+ sites
-- **Genre Browsing** — Explore your library by genre
-- **Quick Search** — Jump to anything instantly
-- **Custom Fonts** — Bring your own interface font
-- **Listening Logs** — Track play counts locally
-- **Performance Tracing** — Built-in profiler
-
-</td>
-<td width="50%" valign="top">
-
-### Polish
-- **Native Integration** — MPRIS (Linux), Now Playing (macOS), SMTC (Windows)
-- **File-Type Badges** — See format at a glance (MP3, FLAC, WAV)
-- **Auto-Cleanup** — Removes missing tracks on rescan
-- **Reduce Animations** — Accessibility-first
-- **30+ Languages** — Full i18n support
-- **Smooth Navigation** — Scroll positions preserved
-
-</td>
-</tr>
-</table>
-
-<br/>
-
----
-
-## Screenshots
-
 <div align="center">
 
-> *Screenshots coming soon. Run `just serve` to try it yourself!*
+| | Feature | Description |
+|---|---------|-------------|
+| <img src="https://img.shields.io/badge/-🎵-black" /> | **Multiple Backends** | Local files, Jellyfin, Subsonic, YouTube Music, SoundCloud |
+| <img src="https://img.shields.io/badge/-🎨-black" /> | **Custom Themes** | Dynamic theming with full color control |
+| <img src="https://img.shields.io/badge/-🔍-black" /> | **Quick Search** | Jump to any artist, album, or track instantly |
+| <img src="https://img.shields.io/badge/-📝-black" /> | **Lyrics** | Real-time synced & plain lyrics with auto-scroll |
+| <img src="https://img.shields.io/badge/-🎮-black" /> | **Equalizer** | 10-band EQ with presets and custom settings |
+| <img src="https://img.shields.io/badge/-🔀-black" /> | **Crossfade** | Smooth track transitions on desktop |
+| <img src="https://img.shields.io/badge/-💬-black" /> | **Discord RPC** | Show what you're listening to |
+| <img src="https://img.shields.io/badge/-📥-black" /> | **yt-dlp** | Download from YouTube and 1000+ sites |
+| <img src="https://img.shields.io/badge/-🎭-black" /> | **System Tray** | Minimize to tray, keeps playing |
+| <img src="https://img.shields.io/badge/-📊-black" /> | **Listening Logs** | Track play counts locally |
+| <img src="https://img.shields.io/badge/-🌍-black" /> | **30+ Languages** | Full i18n support |
+| <img src="https://img.shields.io/badge/-⚡-black" /> | **Blazing Fast** | Rust-powered, opens instantly |
 
 </div>
-
-<br/>
-
----
-
-## Quick Start
-
-### Windows
-
-Download the installer from [Releases](https://github.com/Garvittt-API/Ikigai-player/releases/latest), run `IkigaiPlayer-Setup.exe`, and follow the wizard.
-
-### Linux / macOS
-
-```bash
-# Install from crates.io
-cargo install ikigai-player
-
-# Or build from source
-git clone https://github.com/Garvittt-API/Ikigai-player.git
-cd Ikigai-player
-cargo build --release
-```
-
-### Run in Development
-
-```bash
-# Requires: Rust, Dioxus CLI, Node.js
-npm install
-just serve
-```
 
 <br/>
 
@@ -158,14 +110,10 @@ just serve
 
 <div align="center">
 
-| Layer | Technology |
-|-------|-----------|
-| Language | [Rust](https://www.rust-lang.org/) |
-| UI Framework | [Dioxus](https://dioxuslabs.com/) |
-| Audio | [Symphonia](https://github.com/pdeljanov/symphonia) + [Cpal](https://github.com/RustAudio/cpal) |
-| Metadata | [Lofty](https://github.com/Serial-Dev/lofty-rs) |
-| Database | [SQLite](https://www.sqlite.org/) / [sqlx](https://github.com/launchbadge/sqlx) |
-| Styling | [TailwindCSS](https://tailwindcss.com/) |
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![Dioxus](https://img.shields.io/badge/Dioxus-4f46e5?style=flat&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 
 </div>
 
@@ -173,68 +121,40 @@ just serve
 
 ---
 
-## Building
+## Screenshots
 
-### Prerequisites
+<div align="center">
 
-- [Rust](https://rustup.rs/) (stable)
-- [Dioxus CLI](https://dioxuslabs.com/docs/0.6/guide/engetting_started/installation.html)
-- [Node.js](https://nodejs.org/) (for Tailwind)
-- Platform libraries (see [CONTRIBUTING.md](CONTRIBUTING.md))
+> *Coming soon — try it yourself!*
 
-### Build Commands
-
-```bash
-just serve          # Dev server with hot reload
-just build          # Release build
-cargo clippy --workspace --all-targets -- -D warnings   # Lint
-cargo fmt --all     # Format
-cargo test --workspace   # Test
-```
+</div>
 
 <br/>
 
 ---
 
-## Project Structure
+## How It Works
+
+<div align="center">
 
 ```
-Ikigai-player/
-├── crates/
-│   ├── kopuz/          # App binary & entry point
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # Page-level views
-│   ├── player/         # Audio engine
-│   ├── db/             # SQLite backend
-│   ├── server/         # Media source backends
-│   ├── hooks/          # Dioxus data hooks
-│   ├── config/         # App configuration
-│   ├── reader/         # Domain models & scanner
-│   ├── i18n/           # Internationalization
-│   ├── utils/          # Shared utilities
-│   ├── radio/          # Internet radio
-│   ├── scrobble/       # ListenBrainz scrobbling
-│   └── discord-presence/  # Discord RPC
-├── android-src/        # Android media session
-├── packaging/          # Flatpak, AUR, Nix
-└── scripts/            # Build & codegen helpers
+  ┌─────────────────────────────────────────────┐
+  │                  IKIGAI                      │
+  │                                              │
+  │   📁 Local Files    🎵 Jellyfin              │
+  │   🎤 Subsonic       🎶 YouTube Music         │
+  │   ☁️  SoundCloud     📻 Internet Radio        │
+  │                                              │
+  │          ↓ Unified Media Layer ↓             │
+  │                                              │
+  │   🎨 Beautiful UI    ⚡ Blazing Fast          │
+  │   🎛️  Equalizer      📝 Synced Lyrics        │
+  │   💬 Discord RPC     🔀 Crossfade             │
+  │                                              │
+  └─────────────────────────────────────────────┘
 ```
 
-<br/>
-
----
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-```bash
-# Quick setup
-git clone https://github.com/Garvittt-API/Ikigai-player.git
-cd Ikigai-player
-nix develop    # or install deps manually
-just serve
-```
+</div>
 
 <br/>
 
@@ -242,7 +162,7 @@ just serve
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+MIT License — see [LICENSE](LICENSE) for details.
 
 <br/>
 
@@ -250,7 +170,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 <div align="center">
 
-**Built with care using Rust + Dioxus**
+**Made with ❤️ using Rust + Dioxus**
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Garvittt-API/Ikigai-player&type=Date)](https://star-history.com/#Garvittt-API/Ikigai-player&Date)
 
