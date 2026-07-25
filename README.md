@@ -239,7 +239,7 @@ Click **Next**.
 
 ### Step 6 — Sign In
 Your browser opens automatically.
-Sign in with your Google account.
+Sign in with your Google account. and then restart "Ikigai"
 That's it — **you're ready to go!** 🎉
 
 </td>
@@ -264,12 +264,13 @@ That's it — **you're ready to go!** 🎉
 
 <div align="center">
 
-**Music is playing but search shows nothing?**
+**After logging in through brower still you see nothing after searching songs in search menu?**
 
 1. Go to **Settings**
 2. Scroll down to **Media Servers**
-3. Find your server and click the small **Login** button next to it
-4. You should see **Connected** appear
+3. then if you see "connected" then no need to change anything
+4. but if you see "disconnecrted" and click the small **Login** button next to it
+4. then you will see **Connected** appear
 5. If it doesn't show connected after clicking Login, [open an issue on GitHub](https://github.com/Garvittt-API/Ikigai-player/issues) or email us at **garvitchoudhary2315@gmail.com**
 
 </div>
